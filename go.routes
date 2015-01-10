@@ -1,0 +1,11 @@
+# The format of the route file is as follows:
+# type_of_request url => controller
+# For Example:
+# POST /users/1/edit => user_update
+# The request is passed into user_update controller method
+
+
+GET / => index
+GET /test => test
+GET /ip => ip
+GET /browser => browser
